@@ -1,0 +1,31 @@
+# Core ML and Computer Vision Libraries
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Machine Learning Utilities
+scikit-learn>=1.3.0
+
+# Image Processing
+Pillow>=9.5.0
+
+# Data Handling
+pandas>=2.0.0
+
+# Progress Tracking (optional but useful)
+tqdm>=4.65.0
+
+# Matplotlib for visualization (optional)
+matplotlib>=3.7.0
+
+# YAML parsing (required by ultralytics)
+PyYAML>=6.0
+
+# Additional utilities
+requests>=2.31.0
+psutil>=5.9.0
