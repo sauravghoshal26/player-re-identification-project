@@ -248,23 +248,6 @@ reid_system.confidence_threshold = 0.3
 reid_system.feature_similarity_threshold = 0.8
 ```
 
-**4. Players losing IDs frequently**
-```python
-# Increase temporal tolerance
-reid_system.max_frames_missing = 50
-reid_system.max_distance_threshold = 200
-```
-
-### Debug Mode
-
-```python
-# Enable detailed logging
-import logging
-logging.basicConfig(level=logging.DEBUG)
-
-# Add debug prints in process_frame()
-```
-
 ## 📚 API Reference
 
 ### Main Classes
